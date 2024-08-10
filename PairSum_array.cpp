@@ -7,7 +7,7 @@ void PairSum(int *arr, int n)
     {
         for(int j=i+1;j<n;j++)  // start with i+1 to avoid make pairing with itself
         {
-            for(int k=0;k<n;k++) // start from j+1 because we have to check the pair sum of i and j index elements within rest of array elements
+            for(int k=0;k<n;k++) 
             {
                 if(arr[i] + arr[j] == arr[k])
                 {
