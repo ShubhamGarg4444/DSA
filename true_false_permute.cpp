@@ -30,9 +30,9 @@ int main()
     cout<<"enter n to make the different possible combinations of true and false: "<<endl;
     cin>>n ;
     vector<string> res= solve(1,n,"") ;
-    for (const string& combination : res) 
+    for (const string& step : res) 
     {
-        cout << combination << endl;
+        cout << step << endl;
     }
 
     return 0;
